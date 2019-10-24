@@ -15,6 +15,10 @@ import { RouterModule } from '@angular/router';
       {
         path: 'ticket',
         loadChildren: () => import('./ticket/ticket.module').then(m => m.BugtrackerTicketModule)
+      },
+      {
+        path: 'tag-only-uuid',
+        loadChildren: () => import('./tag-only-uuid/tag-only-uuid.module').then(m => m.BugtrackerTagOnlyUUIDModule)
       }
       /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
     ])

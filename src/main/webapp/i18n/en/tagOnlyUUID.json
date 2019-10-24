@@ -1,0 +1,22 @@
+{
+  "bugtrackerApp": {
+    "tagOnlyUUID": {
+      "home": {
+        "title": "Tag Only UUIDS",
+        "createLabel": "Create a new Tag Only UUID",
+        "createOrEditLabel": "Create or edit a Tag Only UUID",
+        "notFound": "No Tag Only UUIDS found"
+      },
+      "created": "A new Tag Only UUID is created with identifier {{ param }}",
+      "updated": "A Tag Only UUID is updated with identifier {{ param }}",
+      "deleted": "A Tag Only UUID is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tag Only UUID {{ id }}?"
+      },
+      "detail": {
+        "title": "Tag Only UUID"
+      },
+      "label": "Label"
+    }
+  }
+}

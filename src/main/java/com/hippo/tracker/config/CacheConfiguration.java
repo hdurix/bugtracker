@@ -47,6 +47,7 @@ public class CacheConfiguration {
             createCache(cm, com.hippo.tracker.domain.Tag.class.getName() + ".tickets");
             createCache(cm, com.hippo.tracker.domain.Ticket.class.getName());
             createCache(cm, com.hippo.tracker.domain.Ticket.class.getName() + ".tags");
+            createCache(cm, com.hippo.tracker.domain.TagOnlyUUID.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

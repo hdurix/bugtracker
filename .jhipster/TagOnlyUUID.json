@@ -1,0 +1,24 @@
+{
+    "name": "TagOnlyUUID",
+    "fields": [
+        {
+            "fieldName": "label",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "minlength"
+            ],
+            "fieldValidateRulesMinlength": 3
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191024134505",
+    "entityTableName": "tag_only_uuid",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

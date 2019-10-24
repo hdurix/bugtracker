@@ -10,6 +10,7 @@
         "project": "Project",
         "tag": "Tag",
         "ticket": "Ticket",
+        "tagOnlyUuid": "Tag Only UUID",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
