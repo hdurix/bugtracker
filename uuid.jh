@@ -1,0 +1,5 @@
+
+entity TagOnlyUUID {
+ label String minlength(3)
+ id UUID
+}
